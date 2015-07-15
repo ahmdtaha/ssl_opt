@@ -1,5 +1,5 @@
 # Semi Supervised Learning optimized 
-This matlab code provide a computational optimized version of the original version developed and distributed  [Fergus 2009](http://cs.nyu.edu/~fergus/). [Fregus 2009](http://cs.nyu.edu/~fergus/) provides a matlab code to approximate the laplacian eigenvector. He calculated the Laplace beltrami operator eigenfunction then interpolate it to compute laplacian eigenvector. This matlab code provides an optimized procedure for calculating the approximated Laplacian eigenvectors. The figure below show the time analysis for computing the Laplacian smoothness using three different procedure.
+This matlab code provides a computational optimized version of the original version developed and distributed  [Fergus 2009](http://cs.nyu.edu/~fergus/). [Fregus 2009](http://cs.nyu.edu/~fergus/) provides a matlab code to approximate the laplacian eigenvector. He calculated the Laplace beltrami operator eigenfunction then interpolate it to compute laplacian eigenvector. This matlab code provides an optimized procedure for calculating the approximated Laplacian eigenvectors. The figure below show the time analysis for computing the Laplacian smoothness using three different procedure.
 
 - Using exact Laplacian eigenvectors (EigVector)
 - Using Laplace Beltrami operator eigen functions (Eigfunctions - Fergus)
