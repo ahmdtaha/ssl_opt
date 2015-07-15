@@ -27,10 +27,16 @@ For help, please contact ahmed.taha [@] alexu dot edu dot eg
 2. [Marwan Torki](http://www.eng.alexu.edu.eg/~mtorki/)
 
 ##Contribution guidelines
+Our procedure improved the running time needed when increasing the number of points (labeled and unlabeled data). Yet, more enhancements are required to cope with increasing the number of features per point. Another bottleneck for the current procedure is increasing the number of eigenvectors for computing the laplacian smoothness. We ran multiple time analysis experiments, we summarize our finding in the following list.
 
--  We plan to deliver multiple more themes for floating ads like floating balloons and floating clouds
--  We will improve to the library to make it more customizable to display app relevant graphics.
--  Support other games Ads networks. 
+ - eigenfunctions.m
+ --  `suu2 = sqrt(sum(uu2.^2));
+   uu2 = uu2 ./ (ones(nPoints,1) * suu2);`
+   These lines slows down the procedure when increasing the number of features
+   -- `uu2(:,a)=interp1(bins_out(:,a),uu(:,a),DATA(:,jj(a)), 'linear','extrap');`
+   This line slows the procedure when increasing the number of eigenvectors. 
+
+Any contribution to any of these issues are welcomed.
 
 ## Citation
 @article{tahaseeded,
