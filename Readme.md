@@ -39,12 +39,13 @@ Our procedure improved the running time needed when increasing the number of poi
 Any contribution to any of these issues are welcomed.
 
 ## Citation
-@article{tahaseeded,
-   author = "Taha, A. and Torki, M.",
-   title = "Seeded Laplacian: An Interactive Image Segmentation Approach using Eigenfunctions",
-   year = "2015"
-  } 
-
+@inproceedings{taha2015seeded,
+  title={Seeded Laplacian: An interactive image segmentation approach using eigenfunctions},
+  author={Taha, Ahmed and Torki, Marwan},
+  booktitle={Image Processing (ICIP), 2015 IEEE International Conference on},
+  year={2015},
+  organization={IEEE}
+}
 ##License
 Copyright (c) 2015, Ahmed Taha (ahmed.taha@alexu.edu.com)
 All rights reserved.
