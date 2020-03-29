@@ -5,7 +5,7 @@ This matlab code provides a computational optimized version of the original vers
 - Using Laplace Beltrami operator eigen functions (Eigfunctions - Fergus)
 - Using Optimized approach for Laplace Beltrami operator eigen functions (Eigfunctions - Taha)
 
-!["Alt txt"](http://ahmed-taha.com/wp-content/uploads/2015/07/time_analysis.png)
+!["Alt txt"](./icip_figure.jpg)
 
 
 
